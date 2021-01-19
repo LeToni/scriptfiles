@@ -1,0 +1,33 @@
+{
+    "python.testing.cwd": "",
+    "python.linting.pylintArgs": [
+        "--extension-pkg-whitelist=pygame"
+    ],
+    "dart.previewFlutterUiGuides": true,
+    "dart.previewFlutterUiGuidesCustomTracking": true,
+    "dart.openDevTools": "flutter",
+    "mssql.connections": [],
+    "mssql.enableQueryHistoryCapture": false,
+    "explorer.confirmDelete": false,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "go.useLanguageServer": true,
+    "go.lintFlags": [
+        "\"--exclude=\\\"\\bexported \\\\w+ (\\\\S*['.]*)([a-zA-Z'.*]*) should have comment or be unexported\\b\\\"\""
+    ],
+    "workbench.colorTheme": "Default Dark+",
+    "window.zoomLevel": 0,
+    "go.languageServerFlags": [
+    
+    ]
+}
