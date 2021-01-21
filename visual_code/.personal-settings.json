@@ -29,5 +29,8 @@
     "window.zoomLevel": 0,
     "go.languageServerFlags": [
     
-    ]
+    ],
+    "[rust]": {
+        "editor.formatOnSave": true
+    }
 }
