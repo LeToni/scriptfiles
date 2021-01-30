@@ -1,0 +1,2 @@
+# List 10 most used commands stored in terminal history
+history | sed -e 's/ *[0-9][0-9]* *//' | sort | uniq -c | sort -rn | head -10
