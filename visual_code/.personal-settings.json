@@ -32,5 +32,7 @@
     ],
     "[rust]": {
         "editor.formatOnSave": true
-    }
+    },
+    "terminal.integrated.shellArgs.windows": "/bin/zsh",
+    "terminal.integrated.fontFamily": "Source Code Pro for Powerline"
 }
