@@ -1,0 +1,12 @@
+{
+	"Class": {
+		"prefix": "classname",
+		"body": ["public class $TM_FILENAME_BASE", "{", "\t$0", "}"],
+		"description": "Create class with file"
+	},
+	"Namespace":{
+		"prefix": "namespace_6",
+		"body": "namespace ${1:Name};",
+		"description": "Namespace"
+	}
+}
