@@ -1,0 +1,20 @@
+{
+	"Tests Mod": {
+		"prefix": "mod_tests",
+		"body": ["#[cfg(test)]","mod tests {","\tuse super::*;","","\t$0","}"],
+		"description": "Test mod"
+	},
+	"Unit Test": {
+		"prefix": "fn_test",
+		"body": ["#[test]",
+			"fn ${1:Name}() {",
+			"\t//Given",
+			"\t$2",
+			"\t//When",
+			"\t$3",
+			"\t//Then",
+			"\t$4",
+			"}"],
+		"description": "Fn test"
+	}
+}
