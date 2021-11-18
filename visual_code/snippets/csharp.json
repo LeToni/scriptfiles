@@ -1,12 +1,24 @@
 {
 	"Class": {
-		"prefix": "classname",
-		"body": ["public class $TM_FILENAME_BASE", "{", "\t$0", "}"],
-		"description": "Create class with file"
+		"prefix": "class_tl",
+		"body": ["${1:public} class $TM_FILENAME_BASE", 
+			"{", 
+			"\t$2",
+			"}"],
+		"description": "Create class with filename"
+	},
+	"Interface": {
+		"prefix": "interface_tl",
+		"body": ["${1:public} interface $TM_FILENAME_BASE", 
+			"{", 
+			"\t$2",
+			"}"],
+		"description": "Create interface with filename"
 	},
 	"Namespace":{
-		"prefix": "namespace_6",
+		"prefix": "namespace_tl",
 		"body": "namespace ${1:Name};",
 		"description": "Namespace"
 	}
+
 }
